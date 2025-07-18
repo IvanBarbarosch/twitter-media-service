@@ -12,12 +12,13 @@ const { TwitterApi } = require('twitter-api-v2');
 const app = express();
 app.use(express.json());
 
-const twitterClient = new TwitterApi({
-  appKey: process.env.TWITTER_CONSUMER_KEY,
-  appSecret: process.env.TWITTER_CONSUMER_SECRET,
-  accessToken: process.env.TWITTER_ACCESS_TOKEN,
-  accessSecret: process.env.TWITTER_ACCESS_SECRET,
+const client = new TwitterApi({
+  appKey: "4uJBigRKNwUymIYh292qo0pO3",
+  appSecret: "ricquzkGqUwlJnaehXRuREKkbSORwDwOLL8IKLu5B1FEYm1EkU",
+  accessToken: "1408823667706957825-yMSEqPg9B3gZTRRAoAyR63fYvrZ7Hv",
+  accessSecret: "9JyKCf8tzeMsi1V55kpWoQmIDfzfmaT5NciqW",
 });
+
 
 app.post('/tweet', async (req, res) => {
   const { text, imageUrl } = req.body;
