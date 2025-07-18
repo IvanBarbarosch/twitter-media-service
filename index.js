@@ -6,10 +6,10 @@ const app = express();
 app.use(express.json());
 
 const client = new TwitterApi({
-  appKey: "4uJBigRKNwUymIYh292qo0pO3",
-  appSecret: "ricquzkGqUwlJnaehXRuREKkbSORwDwOLL8IKLu5B1FEYm1EkU",
-  accessToken: "1408823667706957825-t3yT8b7h6zQgkBHtteHPyOHlGwbvXH",
-  accessSecret: "YGSu2wIVP0eNzTeY3ZVwDcCQ6qmYkaS5VhYjDQDmm5SvI"
+  appKey: "CWAeWidvkHykrRFrwHEt3BjW3",
+  appSecret: "ZOQKvcjmuYkucbwdyAuaCM4tT4DQByyne4FMHcWOLblWrM8l6V",
+  accessToken: "1946269048452554752-LZw3ZYOiKgahJnfXzXbyubk3MqBboh",
+  accessSecret: "XFOeKrVAu0utBtPIY5vmEFChs8pTwG0fSf7ijpmmJWuj9"
 });
 
 const twitterClient = client.readWrite;
