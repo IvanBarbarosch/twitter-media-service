@@ -8,8 +8,8 @@ app.use(express.json());
 const client = new TwitterApi({
   appKey: "4uJBigRKNwUymIYh292qo0pO3",
   appSecret: "ricquzkGqUwlJnaehXRuREKkbSORwDwOLL8IKLu5B1FEYm1EkU",
-  accessToken: "1408823667706957825-yMSEqPg9B3gZTRRAoAyR63fYvrZ7Hv",
-  accessSecret: "9JyKCf8tzeMsi1V55kpWoQmIDfzfmaT5NciqW"
+  accessToken: "1408823667706957825-t3yT8b7h6zQgkBHtteHPyOHlGwbvXH",
+  accessSecret: "YGSu2wIVP0eNzTeY3ZVwDcCQ6qmYkaS5VhYjDQDmm5SvI"
 });
 
 const twitterClient = client.readWrite;
