@@ -16,7 +16,7 @@ const client = new TwitterApi({
   appKey: "4uJBigRKNwUymIYh292qo0pO3",
   appSecret: "ricquzkGqUwlJnaehXRuREKkbSORwDwOLL8IKLu5B1FEYm1EkU",
   accessToken: "1408823667706957825-yMSEqPg9B3gZTRRAoAyR63fYvrZ7Hv",
-  accessSecret: "9JyKCf8tzeMsi1V55kpWoQmIDfzfmaT5NciqW",
+  accessSecret: "9JyKCf8tzeMsi1V55kpWoQmIDfzfmaT5NciqW"
 });
 
 
