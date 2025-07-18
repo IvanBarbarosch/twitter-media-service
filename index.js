@@ -1,10 +1,3 @@
-console.log("ENV:");
-console.log("TWITTER_CONSUMER_KEY:", process.env.TWITTER_CONSUMER_KEY);
-console.log("TWITTER_CONSUMER_SECRET:", process.env.TWITTER_CONSUMER_SECRET);
-console.log("TWITTER_ACCESS_TOKEN:", process.env.TWITTER_ACCESS_TOKEN);
-console.log("TWITTER_ACCESS_SECRET:", process.env.TWITTER_ACCESS_SECRET);
-
-
 const express = require('express');
 const axios = require('axios');
 const { TwitterApi } = require('twitter-api-v2');
@@ -19,6 +12,7 @@ const client = new TwitterApi({
   accessSecret: "9JyKCf8tzeMsi1V55kpWoQmIDfzfmaT5NciqW"
 });
 
+const twitterClient = client.readWrite;
 
 app.post('/tweet', async (req, res) => {
   const { text, imageUrl } = req.body;
